@@ -10,7 +10,7 @@ All team members met and worked on all phases equally.
 
 **Members:**
 | Name | ID |
-| -------- | ---------: |
+| :-------- | ---------: |
 | USAMA BAKKAR | 202263960 |
 | MOHAMMED ALI | 202252120 |
 | ABDULLAH ALMESHHEN | 202162450 |
