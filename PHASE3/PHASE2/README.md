@@ -1,5 +1,5 @@
 ## Setup
-Following the guide set by the project instructions, we installed [Splunk Server](https://download.splunk.com/products/splunk/releases/9.3.2/linux/splunk-9.3.2-d8bb32809498-linux-2.6-amd64.deb) on Kali Linux to receive data from the victim machine, Metasploitable3. The web interface can be accessed at http://vbox-kali:8000.
+Following the guide set by the [project instructions](https://github.com/osamacs7/344-Setup-Guide/blob/main/PHASE2/splunkSIEM.md), we installed [Splunk Server](https://download.splunk.com/products/splunk/releases/9.3.2/linux/splunk-9.3.2-d8bb32809498-linux-2.6-amd64.deb) on Kali Linux to receive data from the victim machine, Metasploitable3. The web interface can be accessed at http://vbox-kali:8000.
 
 ![Web Interface](https://i.imgur.com/HSgjeiY.png)\
 We also installed [Splunk Forwarder](https://download.splunk.com/products/universalforwarder/releases/9.4.1/linux/splunkforwarder-9.4.1-e3bdab203ac8-linux-arm64.deb) on Metasploitable3 to send data to the attacker machine, Kali Linux. The auth.log file is now being monitored by the Forwarder which has been connected to the Splunk Server on port 9997 and set active.
